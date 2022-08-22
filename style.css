@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #DBECF4;
+}
+h1 {
+  font-family: 'DynaPuff', cursive;
+}
