@@ -2,7 +2,21 @@
   display: flex;
   justify-content: center;
   background-color: #DBECF4;
+  font-size: 50px;
 }
 h1 {
   font-family: 'DynaPuff', cursive;
+}
+#btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+#btn {
+  margin-top: 200px;
+  background-color: #DBECF4;
+  padding: 25px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'DynaPuff', cursive;
+  font-size: 40px;
 }
