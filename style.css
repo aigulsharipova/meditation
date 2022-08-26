@@ -21,13 +21,13 @@ h1 {
   font-size: 20px;
 }
 #btn:hover {
-  background: linear-gradient(to right, #ACB6E5, #74ebd5);
-  }
-  #myVideo {
-    position: fixed;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-  }
+background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+#myVideo {
+position: fixed;
+top: 0;
+right: 0;
+min-width: 100%;
+min-height: 100%;
+z-index: -1;
+}
