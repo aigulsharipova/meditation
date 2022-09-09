@@ -8,3 +8,4 @@ function calculateTime() {
   countdown.textContent = `${minutes} : ${seconds}`;
   amountTime --;
 }
+setInterval(calculateTime, 1000);
