@@ -10,6 +10,9 @@ function calculateTime() {
   if (amountTime < 0) {
     stopTimer();
     amountTime = 0;
+    function stopTimer() {
+      clearInterval(timerID);
+    }
   }
 }
 setInterval(calculateTime, 1000);
