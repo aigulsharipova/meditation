@@ -11,8 +11,8 @@ function calculateTime() {
     stopTimer();
     amountTime = 0;
     function stopTimer() {
-      clearInterval(timerID);
+      clearInterval(timerId);
     }
   }
 }
-setInterval(calculateTime, 1000);
+let timerId = setInterval(calculateTime, 1000);
