@@ -7,5 +7,8 @@ function calculateTime() {
   let seconds = amountTime % 60;
   countdown.textContent = `${minutes} : ${seconds}`;
   amountTime --;
+  if (amountTime < 0) {
+    amountTime = 0
+  }
 }
 setInterval(calculateTime, 1000);
