@@ -1,4 +1,4 @@
-const timer = 1;
+const timer = 5;
 let amountTime = timer * 60;
 
 function calculateTime() {
