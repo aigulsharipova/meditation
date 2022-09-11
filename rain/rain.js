@@ -27,4 +27,5 @@ function calculateTime() {
     clearInterval(timerId);
   }
 }
+
 let timerId = setInterval(calculateTime, 1000);
