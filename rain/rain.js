@@ -8,4 +8,5 @@ function calculateTime() {
   countdown.textContent = `${minutes} : ${seconds}`;
   amountTime --;
 }
-calculateTime()
+
+let timerId = setInterval(calculateTime, 1000);
