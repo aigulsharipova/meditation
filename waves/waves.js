@@ -3,6 +3,7 @@ let amountTime = timer * 60;
 
 function calculateTime() {
   const countdown = document.querySelector('#countdown');
+
   let minutes = Math.floor(amountTime/60);
   let seconds = amountTime % 60;
 
@@ -26,5 +27,4 @@ function calculateTime() {
     clearInterval(timerId);
   }
 }
-
 let timerId = setInterval(calculateTime, 1000);
