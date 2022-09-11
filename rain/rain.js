@@ -7,13 +7,16 @@ function calculateTime() {
   let minutes = Math.floor(amountTime/60);
   let seconds = amountTime % 60;
 
+  countdown.textContent = `${minutes} : ${seconds}`;
+  amountTime --;
+
   if(amountTime < 0) {
     stopTimer()
     amountTime = 0
   }
   
-  countdown.textContent = `${minutes} : ${seconds}`;
-  amountTime --;
+  function stopTimer() {
+    clearInterval(timerId);
+  }
 }
-
 let timerId = setInterval(calculateTime, 1000);
