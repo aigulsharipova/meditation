@@ -5,5 +5,7 @@ function calculateTime() {
   const countdown = document.querySelector('#countdown');
   let minutes = Math.floor(amountTime/60);
   let seconds = amountTime % 60;
-  countdown.textContent = `{minutes} : ${seconds};`
+  countdown.textContent = `${minutes} : ${seconds}`;
+  amountTime --;
 }
+calculateTime()
