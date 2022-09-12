@@ -17,3 +17,16 @@
   min-height: 100%;
   z-index: -1;
 }
+#myButton {
+  display: none;
+}
+
+@media all and (max-width:500px) {
+  #myButton {
+    display: block;
+    padding: 10px;
+    background: linear-gradient(to right, #98e4c4, #f0f3f5);
+    border-radius: 10px;
+    border: none;
+  }
+}

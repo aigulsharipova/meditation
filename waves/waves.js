@@ -1,4 +1,5 @@
 const button = document.querySelector('#myButton');
+
 button.addEventListener('click', function() {
   document.querySelector('#player').play();
   document.querySelector('#myVideo').play();
@@ -33,5 +34,5 @@ function calculateTime() {
     clearInterval(timerId);
   }
 }
-let timerId = setInterval(calculateTime, 1000);
 
+let timerId = setInterval(calculateTime, 1000);
