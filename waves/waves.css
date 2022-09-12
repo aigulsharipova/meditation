@@ -30,3 +30,6 @@
     border: none;
   }
 }
+body {
+  background: linear-gradient(to right, #98e4c4, #f0f3f5);
+}
